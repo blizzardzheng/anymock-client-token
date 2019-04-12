@@ -8,14 +8,7 @@
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register ./tests/*.test.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.alipay-inc.com:anymock/anymock-client-token.git"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npm.alibaba-inc.com"
-  },
-  "author": "",
+  "author": "candy.zhengxq@gmail.com",
   "license": "ISC",
   "dependencies": {
     "aliyun-sdk-node-request": "^0.0.4"
