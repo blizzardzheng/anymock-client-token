@@ -1,0 +1,30 @@
+{
+  "name": "anymock-client-token",
+  "version": "1.0.0",
+  "description": "a token checker ak",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json --watch",
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "test": "mocha -r ts-node/register ./tests/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alipay-inc.com:anymock/anymock-client-token.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aliyun-sdk-node-request": "^0.0.4"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/should": "^13.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333",
+    "mocha": "^6.0.2"
+  }
+}
