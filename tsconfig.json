@@ -26,8 +26,6 @@
     "types": ["node"]
   },
   "files": [
-    "lib/index.ts",
-    "lib/flat.ts",
-    "lib/encode3986.ts"
+    "lib/index.ts"
   ]
 }

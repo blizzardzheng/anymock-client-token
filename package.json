@@ -1,6 +1,6 @@
 {
   "name": "anymock-client-token",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a token checker ak",
   "main": "dist/index.js",
   "scripts": {
@@ -11,13 +11,15 @@
   "author": "candy.zhengxq@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "aliyun-sdk-node-request": "^0.0.4"
+    "aliyun-sdk-node-request": "^0.0.4",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.5",
     "@types/should": "^13.0.0",
+    "mocha": "^6.0.2",
     "ts-node": "^8.0.3",
-    "typescript": "^3.3.3333",
-    "mocha": "^6.0.2"
+    "typescript": "^3.3.3333"
   }
 }
