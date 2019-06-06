@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/bin:/Users/caifeng.zxq/.cli:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/bin:/Users/caifeng.zxq/.cli:.:.
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/caifeng.zxq/Library/Caches/Yarn/v4/npm-ansi-regex-3.0.0-ed0317c322064f79466c02966bddb605ab37d998/node_modules/ansi-regex/readme.md' -> '/Users/caifeng.zxq/code/work/anymock-client-token/node_modules/cliui/node_modules/ansi-regex/readme.md'
+
+npm manifest: 
+  {
+    "name": "anymock-client-token",
+    "version": "1.0.2",
+    "description": "a token checker ak",
+    "main": "dist/index.js",
+    "scripts": {
+      "dev": "tsc -p tsconfig.json --watch",
+      "build": "rm -rf dist && tsc -p tsconfig.json",
+      "test": "mocha -r ts-node/register ./tests/*.test.ts"
+    },
+    "author": "candy.zhengxq@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+      "aliyun-sdk-node-request": "^0.0.5",
+      "request": "^2.88.0"
+    },
+    "devDependencies": {
+      "@types/mocha": "^5.2.6",
+      "@types/node": "^11.13.5",
+      "@types/should": "^13.0.0",
+      "mocha": "^6.0.2",
+      "ts-node": "^8.0.3",
+      "typescript": "^3.3.3333"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
